@@ -1,0 +1,126 @@
+@media (max-width:1102px) {
+    .center_margin {
+        max-width: 500px;
+    }
+    .grid_position{
+        max-width: 800px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .grid_item {
+        min-width: 200px;
+        height: 242px;
+}
+.top_container{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.top_right img{
+    width: 255px;
+    height: 255px;
+    margin: 0px;
+}
+.top_left h2 {
+    width: 500px;
+    text-align: center;
+    display: flex;
+}
+.top_left p{
+    width: 500px;
+    height: 156px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+}
+@media (max-width:856px) {
+    .bottom_container{
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .bottom_container img{
+        width: 218px;
+        height: 192px;
+    }
+    .footer_right_nav{
+        width: 241px;
+        gap: 100px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:565px) {
+    .footer_right_nav{
+        gap: 50px;
+    }
+    .footer_left .footer_icons img{
+        width: 25px;
+        height: 25px;
+    }
+    .footer_left .footer_logo img {
+        width: 71px;
+        height: 22px;
+        padding-bottom: 20px;
+    }
+    .footer_left_nav a {
+        font-size: 8px;
+    }
+    .footer_copyright p{
+        font-size: 8px;
+    }
+    .footer_right_nav a{
+        font-size: 8px;
+    }
+    .footer_right_nav{
+        flex-direction: column;
+        width: 100px;
+    }
+}
+@media (max-width:555px) {
+    .top_left h2 {
+        width: 300px;
+        font-size: 18px;
+    }
+    .top_left p{
+        width: 300px;
+    }
+    .gradient_part h2 {
+        font-size: 20px;
+    }
+    .center_container h2{
+        font-size: 20px;
+        width: 300px;
+    }
+    .center_container p{
+        width: 300px;
+        font-size: 20px;
+        margin: 0;
+    }
+    .center_margin {
+        max-width: 300px;
+    }
+    .second_grid_container {
+        max-width: 300px;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    .second_grid_container .grid_items {
+        min-width: 200px;
+        height: 295px;
+    }
+    .bottom-container input {
+        width: 150px;
+    }
+    .header_body input {
+        width: 150px;
+    }
+    .gradient_part input {
+        width: 150px;
+    }
+    .bottom-container h2{
+        font-size: 20px;
+    }
+}

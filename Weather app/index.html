@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div class="header_top">
+            <div class="weather-grid">
+                <div class="weather-card firstCountry ">
+                    <div class="present_name1">Country name</div>
+                    <div class="info">
+                        <img id="type1" id="typehohu" src="images/clear.png" alt="">
+                        <h4 id="temp1" id="temphohu">27^C</h4>
+                    </div>
+                </div>
+                <div class="weather-card SecCountry">
+                    <div class="present_name1">Country name</div>
+                    <div class="info">
+                        <img id="type1" id="typehohu" src="images/clear.png" alt="">
+                        <h4 id="temp1" id="temphohu">27^C</h4>
+                    </div>
+                </div>
+                <div class="weather-card ThirdCountry">
+                    <div class="present_name1">Country name</div>
+                    <div class="info">
+                        <img id="type1" id="typehohu" src="images/clear.png" alt="">
+                        <h4 id="temp1" id="temphohu">27^C</h4>
+                    </div>
+                </div>
+                <div class="weather-card FourthCountry">
+                    <div class="present_name1">Country name</div>
+                    <div class="info">
+                        <img id="type1" id="typehohu" src="images/clear.png" alt="">
+                        <h4 id="temp1" id="temphohu">27^C</h4>
+                    </div>
+                </div>
+                <div class="weather-card FifthCountry">
+                    <div class="present_name1">Country name</div>
+                    <div class="info">
+                        <img id="type1" id="typehohu" src="images/clear.png" alt="">
+                        <h4 id="temp1" id="temphohu">27^C</h4>
+                    </div>
+                </div>
+
+                <!-- Add more weather cards as needed -->
+            </div>
+        </div>
+
+
+        <div class="header_body">
+            <div class="header_body_box">
+                <div class="left_side">
+                    <img src="images/3d-black-opened-umbrella-with-curved-handle-glossy-plastic-monochrome-object-isolated-on-white-background-safety-and-protection-three-dimensional-icon-vector.jpg"
+                        alt="">
+                </div>
+                <div class="right_side">
+                    <div class="right_content">
+                        <div class="upper_content">
+                            <h4>Ready to determine the weather? Type in the desired city:</h4>
+                            <div class="searchside">
+                                <input type="search" class="searchbar" placeholder="Search for cities...">
+                                <button id="searchbtn"></button>
+
+                            </div>
+                        </div>
+                        <div class="weather">
+                            <img src="images/rain.png" class="weather-icon" alt="" srcset="">
+                            <div class="city_data">
+                                <h2 class="temp">22^C</h2>
+                                <h2 class="city">New York</h2>
+                            </div>
+                            <div class="details">
+                                <div class="col">
+                                    <div class="col_img"><img src="images/humidity.png" alt=""></div>
+
+                                    <div class="col_data">
+                                        <p class="humidity">50%</p>
+                                        <p>Humidity</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="col_img"><img src="images/wind.png" alt=""></div>
+                                    <div class="col_data">
+                                        <p class="wind">15 km/h</p>
+                                        <p>Wind Speed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
